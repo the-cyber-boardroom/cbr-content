@@ -8,5 +8,5 @@ Repo to hold to content (multilingual) files for The Cyber Boardroom
 
 ## Repo details
 
-![Current Release](https://img.shields.io/badge/release-v0.1.0-blue)
+![Current Release](https://img.shields.io/badge/release-v0.2.0-blue)
 
