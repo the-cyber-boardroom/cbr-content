@@ -1,14 +1,12 @@
 ---
-title: CBR XYZ
+title: CBR Content
 ---
 
-# cbr-xyz
-Repo for XYZ (replace with name of project). 
-
-This is the template for the other projects and builds up the main CI/CD pipeline
+# cbr-content
+Repo to hold to content (multilingual) files for The Cyber Boardroom
 
 
 ## Repo details
 
-![Current Release](https://img.shields.io/badge/release-v0.3.1-blue)
+![Current Release](https://img.shields.io/badge/release-v0.0.2-blue)
 

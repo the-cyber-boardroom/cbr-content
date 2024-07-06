@@ -6,7 +6,8 @@ on:
 
 env:
   GIT__BRANCH         : 'dev'
-  PACKAGE_NAME        : 'cbr_xyz'
+  PACKAGE_NAME        : 'cbr_content'
+  RELEASE_TYPE        : 'minor'
 
 jobs:
 
@@ -32,7 +33,7 @@ jobs:
       - name: Increment Tag (for DEV)
         uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__increment-tag@dev
         with:
-          release_type : 'minor'
+          release_type : ${{env.RELEASE_TYPE}}
     needs:
       - run-unit-tests
 
