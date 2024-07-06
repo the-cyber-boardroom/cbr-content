@@ -6,7 +6,7 @@ on:
 
 env:
   GIT__BRANCH         : 'main'
-  PACKAGE_NAME        : 'cbr_context'
+  PACKAGE_NAME        : 'cbr_content'
   RELEASE_TYPE        : 'major'
 
 jobs:
