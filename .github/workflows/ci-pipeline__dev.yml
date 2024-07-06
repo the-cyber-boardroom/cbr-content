@@ -33,7 +33,7 @@ jobs:
       - name: Increment Tag (for DEV)
         uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__increment-tag@dev
         with:
-          release_type : ${{RELEASE_TYPE}}
+          release_type : ${{env.RELEASE_TYPE}}
     needs:
       - run-unit-tests
 
