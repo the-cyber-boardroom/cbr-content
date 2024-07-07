@@ -6,7 +6,7 @@ on:
 
 env:
   GIT__BRANCH         : 'main'
-  PACKAGE_NAME        : 'cbr_context'
+  PACKAGE_NAME        : 'cbr_content'
   RELEASE_TYPE        : 'major'
 
 jobs:
@@ -29,6 +29,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Git Update Current Branch
+        uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__update_branch@dev
+
       - name: publish-to-pypi
         uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/pypi__publish@dev
     needs:
