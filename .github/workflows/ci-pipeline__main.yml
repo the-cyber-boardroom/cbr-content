@@ -38,7 +38,7 @@ jobs:
       - increment-tag
 
 
-    trigger-deploy-community-dev:
+  trigger-deploy-community-dev:
       name: "Deploy Community (DEV)"
       runs-on: ubuntu-latest
       steps:
