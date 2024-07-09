@@ -101,5 +101,13 @@ This shows a workflow where the chatbot helps a CFO with his questions
 
 </div>
 
-{{chatbot  name="CFO Financial Analysis" initial_message="Hi, I'm here to help you with Cyber Security Financial Analysis" 
+{{render_template("llms/includes/choose-llm.html")}} 
+
+{{chatbot   name             = "CFO Financial Analysis" 
+            initial_message  = "Hi, I'm here to help you with Cyber Security Financial Analysis"
+            edit_mode        = "false"
+            platform         = "Groq (Free)"
+            provider         = "Meta"
+            model            = "llama3-70b-8192"
+
 }}
