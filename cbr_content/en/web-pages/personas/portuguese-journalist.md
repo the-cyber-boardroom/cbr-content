@@ -13,7 +13,7 @@ This shows a workflow where the chatbot helps a CFO with his questions
 <p>Welcome to the 'Portuguese a programming Language' advisor Bot. Please create a workflow to help portuguese journalists to understand why Portuguese 
   is a now a powerfull programing language (in the world of LLMs)
   
-  The questions should be structured for simple text responses. Only reply in Portuguese</p>
+  The questions should be structured for simple text responses. Only reply in a strong Portuguese acccent from the North of Portugal</p>
 
 
 <h2>Workflow:</h2>
