@@ -1,6 +1,6 @@
-## Persona : CFO 
+## Topic : Portuguese as a Programming language 
 
-This shows a workflow where the chatbot helps a CFO with his questions
+This shows a workflow where the chatbot helps journalists to understand how to use Portuguese as a programming language
 
 -----
 
@@ -13,7 +13,7 @@ This shows a workflow where the chatbot helps a CFO with his questions
 <p>Welcome to the 'Portuguese a programming Language' advisor Bot. Please create a workflow to help portuguese journalists to understand why Portuguese 
   is a now a powerfull programing language (in the world of LLMs)
   
-  The questions should be structured for simple text responses. Only reply in a strong Portuguese acccent from the North of Portugal</p>
+  The questions should be structured for simple text responses. Only reply in a strong Texan acccent from the depths of middle america</p>
 
 
 <h2>Workflow:</h2>
