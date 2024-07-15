@@ -1,38 +1,21 @@
 ## Documentation 
 
-Here is how you can run this site your self
+Welcome to docs section of The Cyber Boardroom - Community Edition
 
-### Python
+### Good demos
 
-1) install the package
+#### Personas
 
-```
-pip install cbr_website_beta
-```
+- [CFO](docs/personas/cfo/index)
 
-2) start site
+#### Platforms
 
-```
-'python -m cbr_website_beta'
-```
+- [Open Router](docs/platforms/open-router/index) 
+    - [Multiple LLMs](docs/platforms/open-router/query-multiple-lllms) 
+    - [Multiple Board Personas](docs/platforms/open-router/multiple-board-personas)
+- [Together AI](docs/platforms/together-ai/index)
+    - [Multiple LLMs](docs/platforms/together-ai/query-multiple-lllms)
 
-### Docker
-
-1) pull image
-
-```
-docker pull --platform linux/amd64  diniscruz/cbr_website_beta:latest
-```
-
-2) start container (when using ollama)
-
-docker run -it --rm -p 5115:3000 --platform linux/amd64  diniscruz/cbr_website_beta
-
-2) start container (when using other platforms)
-
-<pre>
-export GROQ_API_KEY={your key}
-export OPEN_AI__API_KEY={your key}
-export OPEN_ROUTER_API_KEY={your key}
-docker run -it --rm -p 5115:3000 --platform linux/amd64  -e GROQ_API_KEY=$GROQ_API_KEY -e OPEN_AI__API_KEY=$OPEN_AI__API_KEY -e OPEN_ROUTER_API_KEY=$OPEN_ROUTER_API_KEY  diniscruz/cbr_website_beta
-</pre>
+#### MVPs
+  - [Three LLMs](chat/three-llms)
+  - [Three + one LLms](chat/three-plus-one-llms)

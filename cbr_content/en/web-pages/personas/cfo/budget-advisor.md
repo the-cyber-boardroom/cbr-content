@@ -1,10 +1,5 @@
-## Chatbot
+## CFO Budget Advisor
 
-<script src="/assets/plugins/marked/marked.min.js"></script>
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script type="module" src="/web_components/js/utils/WebC__Events_Utils.mjs"></script>
-
-<webc-events-utils></webc-events-utils>
 
 {{render_template("llms/includes/choose-llm.html")}}
 
@@ -61,7 +56,7 @@ Act like a web developerm, only reply in HTML and help the CFO to do an analysis
     send_message = (message) => {
         events_utils.send_to_channel("new_input_message", "chatbot", {'user_prompt':message})
     }
-    
+    //$(message.querySelectorAll('br')).remove()
 </script>
 
 {{chatbot name="Custom bot" 
@@ -80,3 +75,9 @@ $(document).ready(function() {
 });
 
 </script>
+
+<script src="/assets/plugins/marked/marked.min.js"></script>
+<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
+<script type="module" src="/web_components/js/utils/WebC__Events_Utils.mjs"></script>
+
+<webc-events-utils></webc-events-utils>
