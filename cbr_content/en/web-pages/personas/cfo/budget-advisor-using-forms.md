@@ -1,10 +1,4 @@
-## Chatbot
-
-<script src="/assets/plugins/marked/marked.min.js"></script>
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script type="module" src="/web_components/js/utils/WebC__Events_Utils.mjs"></script>
-
-<webc-events-utils></webc-events-utils>
+## CFO Budget Advisor (using Chat)
 
 {{render_template("llms/includes/choose-llm.html")}}
 
@@ -12,7 +6,7 @@
 
 ## System Prompt
 
-Act like a web developerm, only reply in HTML and help the CFO to do an analysis of the company's cyber-security budget
+Act like a web developer, only reply in HTML and help the CFO to do an analysis of the company's cyber-security budget
 #### content instructions
  - your job is to help an CFO to do an analysis of the company's cyber-security budget
  - ask questions using checkboxes and textfields about the folowing areas: 1) tools used, 2) services used, 3) size of team, 4) budget, 5) data criticality
@@ -61,7 +55,7 @@ Act like a web developerm, only reply in HTML and help the CFO to do an analysis
     send_message = (message) => {
         events_utils.send_to_channel("new_input_message", "chatbot", {'user_prompt':message})
     }
-    
+    //$(message.querySelectorAll('br')).remove()
 </script>
 
 {{chatbot name="Custom bot" 
@@ -80,3 +74,9 @@ $(document).ready(function() {
 });
 
 </script>
+
+<script src="/assets/plugins/marked/marked.min.js"></script>
+<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
+<script type="module" src="/web_components/js/utils/WebC__Events_Utils.mjs"></script>
+
+<webc-events-utils></webc-events-utils>

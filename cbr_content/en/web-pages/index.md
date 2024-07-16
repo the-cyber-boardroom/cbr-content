@@ -21,6 +21,7 @@ Welcome to docs section of The Cyber Boardroom - Community Edition
   - [Three + one LLms](chat/three-plus-one-llms)
 
 #### Tools
- - [Spelling and grammar](docs/personas/spelling-grammar-helper)
- - [GitHub guidance and support](docs/personas/github-helper)
- - [Portuguese as a programing language](docs/personas/portuguese-journalist)
+ - [Markdown Examples](docs/markdown/examples)
+ - [Spelling and grammar](docs/tools/spelling-grammar-helper)
+ - [GitHub guidance and support](docs/tools/github-helper)
+ - [Portuguese as a programing language](docs/tools/portuguese-journalist)
