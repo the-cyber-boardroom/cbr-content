@@ -19,3 +19,8 @@ Welcome to docs section of The Cyber Boardroom - Community Edition
 #### MVPs
   - [Three LLMs](chat/three-llms)
   - [Three + one LLms](chat/three-plus-one-llms)
+
+#### Tools
+ - [Spelling and grammar](docs/personas/spelling-grammar-helper)
+ - [GitHub guidance and support](docs/personas/github-helper)
+ - [Portuguese as a programing language](docs/personas/portuguese-journalist)
