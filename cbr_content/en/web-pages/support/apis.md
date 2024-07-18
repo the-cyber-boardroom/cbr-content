@@ -4,7 +4,7 @@ There are multiple APIs that support TCB multiple capabilities.
 
 - [Core FastAPI](docs/support/apis#core-fastapi)
 - [Athena API  ](docs/support/apis#athena-api)
-- [Markdown API](docs/support/apis#markdown-api)
+- [Markdown API](docs/support/apis#markdown-api) - [open directly](/markdown/docs)
 - [LLMs API    ](docs/support/apis#llms-api)
 - [ODIN - Chat ](docs/support/apis#odin-chat)
 - [ODIN - API  ](docs/support/apis#odin-api)
