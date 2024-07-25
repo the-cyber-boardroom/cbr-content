@@ -8,6 +8,7 @@ From the [The Cyber Boardroom ](https://github.com/the-cyber-boardroom) organisa
 
  - [cbr-website-beta](https://github.com/the-cyber-boardroom/cbr-website-beta/actions)
  - [cbr-athena](https://github.com/the-cyber-boardroom/cbr-athena/actions)
+ - [cbr-community](https://github.com/the-cyber-boardroom/cbr-community/actions)
 
 ### Osbot Repos
 
