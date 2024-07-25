@@ -1,7 +1,19 @@
 ## Latest changes
 
+#### v0.158.10
+ - Added support for new Open Router models 
+    - [Llama 3.1 405B Instruct](https://openrouter.ai/models/meta-llama/llama-3.1-405b-instruct)
+    - [Llama 3.1 70B Instruct](https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct)
+    - [Llama 3.1 8B Instruct](https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct)
+    - [Qwen 2 7B Instruct](https://openrouter.ai/models/qwen/qwen-2-7b-instruct)
+    - [Gemma 2 27B](https://openrouter.ai/models/google/gemma-2-27b-it)
+    - [Mistral Nemo](https://openrouter.ai/models/mistralai/mistral-nemo)
+    - [Codestral Mamba](https://openrouter.ai/models/mistralai/codestral-mamba)
+    - [Dolphin Llama 3 70B](https://openrouter.ai/models/cognitivecomputations/dolphin-llama-3-70b)
+    - [Mistral Large](https://openrouter.ai/models/mistralai/mistral-large)
+
 #### v0.158.9
- - added support for new Groq models: `LLaMA3 Groq 8b Tool` and `LLaMA3 Groq 70b Tool`
+ - Added support for new Groq models: `LLaMA3 Groq 8b Tool` and `LLaMA3 Groq 70b Tool`
  
 #### v0.158.8
  - Added support for Open AI's new model [GPT-4o-mini](https://www.linkedin.com/feed/update/urn:li:activity:7219804219246051328)
