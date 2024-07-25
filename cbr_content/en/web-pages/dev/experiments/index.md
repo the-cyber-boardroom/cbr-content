@@ -1,7 +1,7 @@
 # Experiments (Markdown extensions) 
  
 --- 
-Try [markdown_edit](/web/docs/markdown_edit) for a live markdown editor
+Try [markdown/examples](/web/docs/markdown/examples) for a live markdown editor
 
 ### Mermaid extension
 Here is a Mermaid diagram:
