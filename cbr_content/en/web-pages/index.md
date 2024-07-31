@@ -2,6 +2,9 @@
 
 Welcome to docs section of The Cyber Boardroom - Community Edition
 
+### Gen AI models
+ - [Currently supported GenAI](docs/platforms/index) Platforms, Providers and Models
+
 ### Good demos
 
 #### Personas
