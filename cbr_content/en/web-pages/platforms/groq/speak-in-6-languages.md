@@ -1,4 +1,4 @@
-## Open Router - Query multiple LLMs 
+## Speak in 6x languages 
 
 Here is an example of sending the same query to 7 different Chat Bots UIs,each with a 
 different system prompt:

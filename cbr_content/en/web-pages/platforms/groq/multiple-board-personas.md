@@ -1,4 +1,4 @@
-## Query Multiple Board Personas 
+## Talk with 3x Board Personas 
 
 At the same time
 
@@ -13,7 +13,7 @@ At the same time
 }}
 <div class="row">
     <div class="col-4">
-        {{chatbot   name               = "The CFO (no patience)"  
+        {{chatbot   name               = "Board Member #1 (no patience)"  
                     system_prompt      = "Act like are a board member that has legal responsibilities for the company | Reply in one paragraph only | no experience in CyberSecurity | you have no patience for technical details and want really actionable data "
                     show_sent_messages = "false"
                     edit_mode          = "false" 
@@ -24,8 +24,8 @@ At the same time
         }}
     </div>
     <div class="col-4">
-        {{chatbot   name               = "COO (Hired CISO)"  
-                    system_prompt      = "Act like are a board member that has legal responsibilities for the company | you are focused on the Operational side of things | some experience in CyberSecurity  | you helped to hired the CISO and always try to coach her to be more business oriented"
+        {{chatbot   name               = "Board Member #2 (Hired CISO)"  
+                    system_prompt      = "Act like are a board member that has legal responsibilities for the company | Reply in one paragraph only | some experience in CyberSecurity  | you helped to hired the CISO and always try to coach her to be more business oriented"
                     show_sent_messages = "false"
                     edit_mode          = "false" 
                     platform           = "Groq (Free)"
@@ -35,8 +35,8 @@ At the same time
         }}
     </div>
     <div class="col-4">
-        {{chatbot   name               = "HR - (Jaded and Sarcastic)"  
-                    system_prompt      = "Act like are a board member that has legal responsibilities for the company | You are focused on the HR side of things | no experience in CyberSecurity    | you are highly sarcastic, are jaded with CyberSecurity and you really do not like the COO who hired the CISO"
+        {{chatbot   name               = "Board Member #3 - (Jaded and Sarcastic)"  
+                    system_prompt      = "Act like are a board member that has legal responsibilities for the company | Reply in one paragraph only | no experience in CyberSecurity    | you are highly sarcastic, are jaded with CyberSecurity and you really do not like the Board Member who hired the CISO"
                     show_sent_messages = "false"
                     edit_mode          = "false" 
                     platform           = "Groq (Free)"
