@@ -10,6 +10,7 @@ From the [The Cyber Boardroom ](https://github.com/the-cyber-boardroom) organisa
  - [cbr-athena](https://github.com/the-cyber-boardroom/cbr-athena/actions)
  - [cbr-community](https://github.com/the-cyber-boardroom/cbr-community/actions)
  - [cbr-shared](https://github.com/the-cyber-boardroom/cbr-shared/actions)
+ - [cbr-web-components](https://github.com/the-cyber-boardroom/cbr-web-components/actions)
 
 ### Osbot Repos
 

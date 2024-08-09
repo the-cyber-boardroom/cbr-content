@@ -1,5 +1,16 @@
 ## Latest changes
 
+### v0.163.1 
+ - Added major improvement to the ChatBot UI, where now there is support text wrapping and multiple lines auto expand
+   There were also major refactoring done in the ChatBot UI, with improved support to the event driven architecture
+ - Added support for: GPT-4o (2024-08-06) on OpenRouter and OpenAI platforms
+
+### v0.163.0
+ - Improved multiple documentation pages
+ - Added support for new Open Router Perplexity models that are connected Online
+    - [Perplexity: Llama 3.1 Sonar 70B Online](https://openrouter.ai/models/perplexity/llama-3.1-sonar-large-128k-online)
+    - [Perplexity: Llama 3.1 Sonar 8B Online](https://openrouter.ai/models/perplexity/llama-3.1-sonar-small-128k-online)
+
 #### v0.158.10
  - Added support for new Open Router models 
     - [Llama 3.1 405B Instruct](https://openrouter.ai/models/meta-llama/llama-3.1-405b-instruct)
