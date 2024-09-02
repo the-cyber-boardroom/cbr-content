@@ -1,5 +1,9 @@
 ## Latest changes
 
+### v0.173.0
+  - Major backend features with much better workflow to create backend FastAPI and
+    show them in the UI (using Markdown)
+
 ### v0.163.1 
  - Added major improvement to the ChatBot UI, where now there is support text wrapping and multiple lines auto expand
    There were also major refactoring done in the ChatBot UI, with improved support to the event driven architecture

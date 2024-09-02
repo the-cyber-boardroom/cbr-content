@@ -22,7 +22,7 @@ jobs:
           release_type : ${{env.RELEASE_TYPE}}
 
   trigger-deploy-community-dev:
-    name: "Deploy Community (DEV)"
+    name: "Deploy Community (GIT)"
     runs-on: ubuntu-latest
     steps:
       - name: Trigger target repository workflow
@@ -31,7 +31,7 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: token ${{ secrets.GIT_HUB__ACCESS_TOKEN }}" \
           https://api.github.com/repos/the-cyber-boardroom/cbr-community/dispatches \
-          -d '{"event_type":"deploy-community-dev"}'
+          -d '{"event_type":"deploy-community-git"}'
     needs:
       - increment-tag
 
