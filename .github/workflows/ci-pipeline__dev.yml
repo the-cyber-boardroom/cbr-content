@@ -21,7 +21,7 @@ jobs:
         with:
           release_type : ${{env.RELEASE_TYPE}}
 
-  trigger-deploy-community-dev:
+  trigger-deploy-community-git:
     name: "Deploy Community (GIT)"
     runs-on: ubuntu-latest
     steps:
