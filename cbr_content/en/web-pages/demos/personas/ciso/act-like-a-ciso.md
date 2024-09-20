@@ -1,8 +1,12 @@
 ## Chat with the Friendly CISO
 
-Welcome to the **CISO Boardroom Experience**, where you can engage directly with the Chief Information Security Officer (CISO). This chatbot simulates a friendly, approachable CISO who will help you navigate the complex world of cybersecurity with a focus on how it impacts business success.
+Welcome to the **CISO Boardroom Experience**, where you can engage directly a Chief Information Security Officer (CISO). 
+This chatbot simulates a friendly, approachable CISO who will help you navigate the complex world of cybersecurity 
+with a focus on how it impacts business success.
 
-The CISO is here to provide insights, answer your questions, and help translate technical cybersecurity concerns into actionable business strategies. Whether you're seeking advice on a specific cybersecurity issue or exploring general concepts, the CISO is ready to assist.
+The CISO is here to provide insights, answer your questions, and help translate technical cybersecurity 
+concerns into actionable business strategies. Whether you're seeking advice on a specific cybersecurity 
+issue or exploring general concepts, the CISO is ready to assist.
 
 Good questions to ask:
 
