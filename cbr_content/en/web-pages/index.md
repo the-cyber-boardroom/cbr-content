@@ -18,7 +18,7 @@ Discover effective demonstrations that showcase the capabilities of The Cyber Bo
 
 Learn about the different personas available within The Cyber Boardroom, such as the CFO persona. These personas represent various user roles and provide tailored experiences to enhance decision-making and strategy development.
 
-- [CFO](docs/personas/cfo/index)
+- [CFO](docs/demos/personas/cfo/index)
 
 #### Platforms
 
@@ -36,12 +36,13 @@ Discover our Minimum Viable Prototypes (MVPs), featuring three LLMs configuratio
 
   - [Three LLMs](chat/three-llms)
   - [Three + one LLms](chat/three-plus-one-llms)
+  - [Three + one LLms (for Owasp projects)](chat/three-plus-one-llms--owasp-projects)
 
 #### Tools
 
 Access a collection of tools designed to enhance your experience with The Cyber Boardroom. From markdown examples and spelling and grammar tools to GitHub guidance and support for programming languages like Portuguese, these resources are here to assist you.
 
  - [Markdown Examples](docs/markdown/examples)
- - [Spelling and grammar](docs/tools/spelling-grammar-helper)
- - [GitHub guidance and support](docs/tools/github-helper)
- - [Portuguese as a programming language](docs/tools/portuguese-journalist)
+ - [Spelling and grammar](docs/demos/tools/spelling-grammar-helper)
+ - [GitHub guidance and support](docs/demos/tools/github-helper)
+ - [Portuguese as a programming language](docs/demos/tools/portuguese-journalist)
