@@ -6,7 +6,7 @@ Each workflow is designed to address different aspects of a CISO’s role, from 
 
 Explore the links below to dive deeper into the workflows:
 
-- [Act like a CISO](docs/personas/ciso/act-like-a-ciso)
-- [Ask 4x same model](docs/personas/ciso/ask-4x-same-model)
-- [CISO Mind Map](docs/personas/ciso/ciso-mindmap)
-- [Speak to 6x Types of CISOs](docs/personas/ciso/speak-to-6x-types-of-cisos)
+- [Act like a CISO](docs/demos/personas/ciso/act-like-a-ciso)
+- [Ask 4x same model](docs/demos/personas/ciso/ask-4x-same-model)
+- [CISO Mind Map](docs/demos/personas/ciso/ciso-mindmap)
+- [Speak to 6x Types of CISOs](docs/demos/personas/ciso/speak-to-6x-types-of-cisos)

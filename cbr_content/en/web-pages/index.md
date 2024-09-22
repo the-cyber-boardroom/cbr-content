@@ -19,6 +19,7 @@ Discover effective demonstrations that showcase the capabilities of The Cyber Bo
 Learn about the different personas available within The Cyber Boardroom, such as the CFO persona. These personas represent various user roles and provide tailored experiences to enhance decision-making and strategy development.
 
 - [CFO](docs/demos/personas/cfo/index)
+- [CISO](docs/demos/personas/ciso/index)
 
 #### Platforms
 

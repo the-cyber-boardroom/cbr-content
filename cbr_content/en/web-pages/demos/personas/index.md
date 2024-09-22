@@ -1,4 +1,4 @@
 ## Personas 
 
-- [CFO](docs/personas/cfo/)
-- [CISO](docs/personas/ciso/)
+- [CFO](docs/demos/personas/cfo/)
+- [CISO](docs/demos/personas/ciso/)
