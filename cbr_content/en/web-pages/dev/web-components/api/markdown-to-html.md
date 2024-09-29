@@ -6,8 +6,3 @@
 
 <webc-api-markdown-to-html content_path='en/web-pages/demos/index.md'>
 </webc-api-markdown-to-html>
-
----
-
-<webc-api-markdown-to-html content_path='en/web-pages/support/index.md'>
-</webc-api-markdown-to-html>
