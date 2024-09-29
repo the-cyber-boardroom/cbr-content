@@ -2,7 +2,6 @@
 
 <script type="module" src="/web_components/js/elements/ui/WebC__Video.mjs"></script>
 <script type="module" src="/web_components/js/core/WebC__Container.mjs"></script>
-<script type="module" src="/web_components/js/core/WebC__Text.mjs"></script>
 <script type="module" src="/web_components/js/elements/api/WebC__API_Markdown_To_Html.mjs"></script>
 
 
