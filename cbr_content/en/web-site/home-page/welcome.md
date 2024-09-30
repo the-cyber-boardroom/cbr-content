@@ -1,3 +1,5 @@
+<img alt="CBR Logo" width="300px" src="/assets/cbr/cbr-logo-beta.png" style="display: block; margin: 0 auto;">
+
 **Welcome to The Cyber Boardroom**, the one-stop shop that boards of directors rely on for their cyber readiness.
 
 The Cyber Boardroom’s mission is to help you understand your organisation’s cyber security agenda, 
