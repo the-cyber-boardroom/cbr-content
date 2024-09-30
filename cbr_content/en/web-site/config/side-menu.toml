@@ -22,12 +22,6 @@
     text = 'Docs'
     logged_in = false
     visibility = true
-[community_discord]
-    href = 'https://discord.gg/HdJJbFpzMX'
-    icon = 'mdi-message'
-    text = 'Community (Discord)'
-    logged_in = false
-    visibility = true
 [content]
     href = 'content'
     icon = 'mdi-security'
@@ -40,3 +34,10 @@
     text = 'Videos'
     logged_in = false
     visibility = true
+[community_discord]
+    href      = 'https://discord.gg/HdJJbFpzMX'
+    icon      = 'mdi-message'
+    text      = 'Community (Discord)'
+    logged_in = false
+    visibility = true
+    new_window = true
