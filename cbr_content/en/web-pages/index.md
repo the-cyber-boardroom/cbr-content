@@ -47,3 +47,7 @@ Access a collection of tools designed to enhance your experience with The Cyber 
  - [Spelling and grammar](docs/demos/tools/spelling-grammar-helper)
  - [GitHub guidance and support](docs/demos/tools/github-helper)
  - [Portuguese as a programming language](docs/demos/tools/portuguese-journalist)
+
+
+-----
+[edit in GitHub](https://github.com/the-cyber-boardroom/cbr-content/edit/dev/cbr_content/en/web-pages/index.md)

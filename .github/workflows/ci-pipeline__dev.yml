@@ -12,7 +12,6 @@ env:
 jobs:
 
   increment-tag:
-    if: False
     name: Increment Tag - DEV
     runs-on: ubuntu-latest
     steps:
@@ -22,19 +21,19 @@ jobs:
         with:
           release_type : ${{env.RELEASE_TYPE}}
 
-  trigger-deploy-community-git:
-    name: "Deploy Community (GIT)"
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger target repository workflow
-        run: |
-          curl -X POST \
-          -H "Accept: application/vnd.github.v3+json" \
-          -H "Authorization: token ${{ secrets.GIT_HUB__ACCESS_TOKEN }}" \
-          https://api.github.com/repos/the-cyber-boardroom/cbr-community/dispatches \
-          -d '{"event_type":"deploy-community-git"}'
-    needs:
-      - increment-tag
+#  trigger-deploy-community-git:
+#    name: "Deploy Community (GIT)"
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Trigger target repository workflow
+#        run: |
+#          curl -X POST \
+#          -H "Accept: application/vnd.github.v3+json" \
+#          -H "Authorization: token ${{ secrets.GIT_HUB__ACCESS_TOKEN }}" \
+#          https://api.github.com/repos/the-cyber-boardroom/cbr-community/dispatches \
+#          -d '{"event_type":"deploy-community-git"}'
+#    needs:
+#      - increment-tag
 
   publish-to-pypi:
     permissions:
@@ -64,5 +63,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY__654654216424: ${{ secrets.AWS_SECRET_ACCESS_KEY__654654216424 }}
           AWS_DEFAULT_REGION__654654216424   : ${{ secrets.AWS_DEFAULT_REGION__654654216424    }}
           CLOUDFRONT_DIST_ID                 : ${{ secrets.CLOUDFRONT_DIST_ID     }}
-#    needs:
-#      - increment-tag
+    needs:
+      - increment-tag
