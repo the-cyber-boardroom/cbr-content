@@ -1,8 +1,5 @@
 ## Helper - Grammar and Spelling
 
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <div id="system_prompt" markdown="1">
 
 ## Chat Bot Prompt

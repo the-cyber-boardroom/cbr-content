@@ -75,8 +75,4 @@ $(document).ready(function() {
 
 </script>
 
-<script src="/assets/plugins/marked/marked.min.js"></script>
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script type="module" src="/web_components/js/utils/WebC__Events_Utils.mjs"></script>
-
 <webc-events-utils></webc-events-utils>

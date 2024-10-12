@@ -101,6 +101,3 @@ but you can change these values for all chatbot UIs using these select boxes:
         }}
     </div>
 </div>  
-
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="/assets/plugins/marked/marked.min.js"></script>

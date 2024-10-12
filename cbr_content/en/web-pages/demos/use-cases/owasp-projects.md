@@ -24,9 +24,6 @@ This chatbot is designed to guide you through the list of OWASP projects and hel
 }}
 
 
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <br>
 <br>
 <br>

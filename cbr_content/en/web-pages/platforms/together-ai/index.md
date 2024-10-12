@@ -24,8 +24,6 @@ Here are the models currently wired in the UI (if you want to add more, just let
 
 You can give these models a test drive in the [chat-with-llms](chat-with-llms) page or use one of the chatbots UI below.
 
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-
 
 <div class="row">
     <div class="col-6"> 

@@ -1,11 +1,5 @@
 ## Home page - UI blocks
 
-
-<script type="module" src="/web_components/js/core/WebC__Container.mjs"                   ></script>
-<script type="module" src="/web_components/js/elements/api/WebC__API_Markdown_To_Html.mjs"></script>
-<script type="module" src="/web_components/js/elements/ui/WebC__Video.mjs"                ></script>
-<script type="module" src="/web_components/js/elements/markdown/WebC__Markdown__Card.mjs" ></script>
-
 <div class="container-fluid">
     <webc-api-markdown-to-html content-path='en/web-site/home-page/welcome.md'> </webc-api-markdown-to-html>
     <webc-container>

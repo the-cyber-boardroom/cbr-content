@@ -25,9 +25,6 @@ The `ifconfig` output shown below is added a system prompt
 }}
 
 
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 <br>
 <br>
 <br>

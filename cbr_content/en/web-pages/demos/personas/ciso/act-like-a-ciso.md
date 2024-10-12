@@ -112,12 +112,6 @@ The platform below is `Groq (Free)`, using the provider `Meta` and the model `ll
   </div>
 </div>
 
-
-
-
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="/assets/plugins/marked/marked.min.js"></script>
-
 <script>
     $('#main-wrapper').removeAttr('data-layout');
    $('aside').hide()

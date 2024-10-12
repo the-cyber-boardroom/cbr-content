@@ -55,5 +55,3 @@ Below you can ask the same question to the 3 supported Mistral models
     </div>
 </div>  
 
-<script type="module" src="/web_components/js/chat-bots/Chatbot_OpenAI.mjs"></script>
-<script src="/assets/plugins/marked/marked.min.js"></script>
