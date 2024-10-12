@@ -23,3 +23,12 @@ runs:
       run: |               
         aws s3 sync ./cbr_content s3://cyber-boardroom-654654216424-public/cbr-content/${VERSION}/ --acl public-read --delete
         aws s3 sync ./cbr_content s3://cyber-boardroom-654654216424-public/cbr-content/latest/ --acl public-read --delete
+
+    - name: Invalidate CloudFront Cache
+      shell: bash
+      run: |
+        aws cloudfront create-invalidation \
+          --distribution-id ${cloudfront-dist-id} \
+          --paths "/cbr-content/latest/*"
+      with:
+        cloudfront-dist-id: ${{ env.CLOUDFRONT_DIST_ID     }}
