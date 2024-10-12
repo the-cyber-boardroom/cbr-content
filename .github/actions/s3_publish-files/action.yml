@@ -30,5 +30,5 @@ runs:
         aws cloudfront create-invalidation \
           --distribution-id ${cloudfront-dist-id} \
           --paths "/cbr-content/latest/*"
-      with:
-        cloudfront-dist-id: ${{ env.CLOUDFRONT_DIST_ID     }}
+      env:
+          cloudfront-dist-id: ${{ env.CLOUDFRONT_DIST_ID     }}
