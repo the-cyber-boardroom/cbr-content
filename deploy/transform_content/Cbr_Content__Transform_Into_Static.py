@@ -35,3 +35,5 @@ class Cbr_Content__Transform_Into_Static(Type_Safe):
     def path_content_files(self):
         return cbr_content.path
 
+if __name__ == "__main__":
+    Cbr_Content__Transform_Into_Static().convert_all_md_files()

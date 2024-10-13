@@ -1,0 +1,21 @@
+name: 'expand-md-files-into-json'
+description: 'expand-md-files-into-json'
+
+runs:
+  using: 'composite'
+  steps:
+
+    - name: Install Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+
+    - name: Install Dependencies
+      shell: bash
+      run: |
+        pip install osbot-markdown
+
+    - name: Convert files
+      shell: bash
+      run: |
+        python ./deploy/transform_content/Cbr_Content__Transform_Into_Static.py
