@@ -18,4 +18,5 @@ runs:
     - name: Convert files
       shell: bash
       run: |
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
         python ./deploy/transform_content/Cbr_Content__Transform_Into_Static.py
