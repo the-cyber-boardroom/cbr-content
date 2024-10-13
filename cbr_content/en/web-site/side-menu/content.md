@@ -1,5 +1,5 @@
 <a href="home">
-    <img src="/assets/cbr/cbr-logo-beta.png" height="67" class="dark-logo"  style="margin: 10px"/>
+    <img src="https://static.dev.aws.cyber-boardroom.com/cbr-static/latest/assets/cbr/cbr-logo-beta.png" height="67" class="dark-logo"  style="margin: 10px"/>
 </a>
 
 <div class="alert alert-warning alert-dismissible fade show" role="alert">

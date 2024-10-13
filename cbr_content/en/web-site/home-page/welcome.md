@@ -1,4 +1,4 @@
-<img alt="CBR Logo" width="300px" src="/assets/cbr/cbr-logo-beta.png" style="display: block; margin: 0 auto;">
+<img alt="CBR Logo" width="300px" src="https://static.dev.aws.cyber-boardroom.com/cbr-static/latest/assets/cbr/cbr-logo-beta.png" style="display: block; margin: 0 auto;">
 
 **Welcome to The Cyber Boardroom**, the one-stop shop that boards of directors rely on for their cyber readiness.
 
