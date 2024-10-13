@@ -10,7 +10,7 @@ class Cbr_Content__Transform_Into_Static(Type_Safe):
     markdown_parser : Markdown_Parser
 
     def convert_all_md_files(self):
-        for md_file in self.md_files()[0:10]:
+        for md_file in self.md_files():
             self.md_file__to__json(md_file)
 
     def md_file__to__json(self, path):

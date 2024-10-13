@@ -12,7 +12,6 @@ env:
 jobs:
 
   increment-tag:
-    if: False
     name: Increment Tag - DEV
     runs-on: ubuntu-latest
     steps:
@@ -55,5 +54,5 @@ jobs:
           S3_PUBLISH_BUCKET    : cyber-boardroom-654654216424-public
           S3_PUBLISH_FOLDER    : cbr-content
           PACKAGE_NAME         : cbr_content
-#    needs:
-#      - increment-tag
+    needs:
+      - increment-tag

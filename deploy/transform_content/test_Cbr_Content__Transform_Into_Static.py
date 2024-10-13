@@ -1,5 +1,7 @@
 from unittest import TestCase
 
+import requests
+
 from deploy.transform_content.Cbr_Content__Transform_Into_Static import Cbr_Content__Transform_Into_Static
 from osbot_utils.utils.Dev import pprint
 
