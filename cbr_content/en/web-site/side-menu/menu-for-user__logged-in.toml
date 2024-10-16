@@ -12,7 +12,7 @@
     visibility = true
 
 [past_chats]
-    href = 'past-chats'
+    href = 'user/past-chats'
     icon = 'mdi-robot'
     text = 'Past Chats'
     logged_in = false
