@@ -13,8 +13,15 @@
 
 [past_chats]
     href = 'user/past-chats'
-    icon = 'mdi-robot'
+    icon = 'mdi-history'
     text = 'Past Chats'
+    logged_in = false
+    visibility = true
+
+[user_profile]
+    href = 'user/profile'
+    icon = 'mdi-account'
+    text = 'Profile'
     logged_in = false
     visibility = true
 
