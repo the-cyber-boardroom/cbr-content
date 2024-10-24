@@ -10,6 +10,14 @@
     text = 'Athena'
     logged_in = false
     visibility = true
+
+[personas]
+    href = 'user/personas'
+    icon = 'mdi-account'
+    text = 'Personas'
+    logged_in = false
+    visibility = true
+
 [chat_with_llms]
     href = 'chat-with-llms'
     icon = 'mdi-message'
