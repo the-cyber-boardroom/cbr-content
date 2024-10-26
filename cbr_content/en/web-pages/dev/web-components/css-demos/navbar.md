@@ -1,4 +1,4 @@
-## CSS - Demos - Nav Bar
+## CSS - Demos - Navbar
 
 <script type="module" src="/web_components/js/css/demos/WebC__CSS__Demo__Navbar.mjs"></script>
 
