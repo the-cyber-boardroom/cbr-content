@@ -15,8 +15,8 @@ QUnit tests for the multiple UI elements used in this site
 {{iframe:/assets/qunit/utils/WebC__Events_Viewer.qunit.html}}
 
 ----
-[Chatbot_OpenAI.qunit.html](/assets/qunit/chat-bots/Chatbot_OpenAI.qunit.html)
-{{iframe:/assets/qunit/chat-bots/Chatbot_OpenAI.qunit.html}}
+[Chatbot_OpenAI.qunit.html](/assets/qunit/chat-bot/Chatbot_OpenAI.qunit.html)
+{{iframe:/assets/qunit/chat-bot/Chatbot_OpenAI.qunit.html}}
 
 ----
 [WebC__Chat_Bot.qunit.html](/assets/qunit/webc/elements/WebC__Chat_Bot.qunit.html)
