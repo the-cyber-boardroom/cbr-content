@@ -11,19 +11,20 @@
     logged_in = false
     visibility = true
 
-[personas]
-    href = 'user/personas'
-    icon = 'mdi-account'
-    text = 'Personas'
-    logged_in = false
-    visibility = true
+#[personas]
+#    href = 'user/personas'
+#    icon = 'mdi-account'
+#    text = 'Personas'
+#    logged_in = false
+#    visibility = true
+#
+#[chat_with_llms]
+#    href = 'chat-with-llms'
+#    icon = 'mdi-message'
+#    text = 'Chat with LLMs'
+#    logged_in = false
+#    visibility = true
 
-[chat_with_llms]
-    href = 'chat-with-llms'
-    icon = 'mdi-message'
-    text = 'Chat with LLMs'
-    logged_in = false
-    visibility = true
 [docs]
     href = 'docs'
     icon = 'mdi-book-multiple-variant'
