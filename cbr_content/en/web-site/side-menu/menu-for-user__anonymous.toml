@@ -18,12 +18,12 @@
 #    logged_in = false
 #    visibility = true
 #
-#[chat_with_llms]
-#    href = 'chat-with-llms'
-#    icon = 'mdi-message'
-#    text = 'Chat with LLMs'
-#    logged_in = false
-#    visibility = true
+[chat_with_llms]
+    href = 'chat-with-llms'
+    icon = 'mdi-message'
+    text = 'Chat with LLMs'
+    logged_in = false
+    visibility = true
 
 [docs]
     href = 'docs'
