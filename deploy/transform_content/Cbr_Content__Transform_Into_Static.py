@@ -1,7 +1,7 @@
 import cbr_content
 from osbot_markdown.markdown.Markdown_Parser import Markdown_Parser
 
-from osbot_utils.base_classes.Type_Safe import Type_Safe
+from osbot_utils.type_safe.Type_Safe       import Type_Safe
 from osbot_utils.utils.Files import files_list, path_combine_safe, file_contents, file_exists, file_create
 from osbot_utils.utils.Json import json_file_create
 from osbot_utils.utils.Toml import toml_file_load
